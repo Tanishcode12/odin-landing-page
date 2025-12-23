@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.header-tab,.section-one,.section-five{
+    background-color: #1F2937;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+}
+.header-tab .left{
+    font-size: 24px;
+    color: #F9FAF8;
+    align-items: center;
+}
+.header-tab .right{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-tab{
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-left: 120px;
+    margin-right: 120px; */
+    justify-content: space-around;
+    gap:250px;
+}
+.header-tab .left, .header .right{
+    display:flex;
+    align-items: center;
+    gap:18px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:15px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.sub-tab{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    filter: contrast(0.5);
+}
+.sign-up{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: #1F2937;
+}
+button{
+    background-color: #3882f6;
+}
+.second-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* gap:58px; */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+.section-three{
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.writer{
+    text-align: end;
+}
+.section-four{
+    background-color:#3882f6;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    color:white;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.section-four .left, .section-four .right{
+    display: flex;
+    align-items: left;
+    gap:18px
+}
+.section-four .left{
+    display: flex;
+    flex-direction: column;
+    gap:0px
+}
+.bigger{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.sign-up{
+    color: white;
+    border-color: white;
+}
+.section-five{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #F9FAF8;
+}
